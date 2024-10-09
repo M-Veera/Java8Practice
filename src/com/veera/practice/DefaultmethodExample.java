@@ -1,7 +1,7 @@
 package com.veera.practice;
 
-import com.veera.practice.functionalInterfaces.Caluclator ;
-import com.veera.practice.functionalInterfaces.Caluclator2;
+import com.veera.practice.interfaces.Caluclator;
+import com.veera.practice.interfaces.Caluclator2;
 
 
 public class DefaultmethodExample implements Caluclator {
@@ -23,6 +23,10 @@ public class DefaultmethodExample implements Caluclator {
 		CalculatorImpl.defalutmethod();
 		
 		(new Caluclator2() {}).defalutmethod();
+		
+		Caluclator.staticMethod();
+		
+		Caluclator.staticMethod2();
 		
 		
 		

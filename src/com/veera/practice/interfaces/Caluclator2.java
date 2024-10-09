@@ -1,4 +1,4 @@
-package com.veera.practice.functionalInterfaces;
+package com.veera.practice.interfaces;
 
 public interface Caluclator2 {
 
